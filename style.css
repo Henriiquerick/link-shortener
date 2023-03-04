@@ -32,9 +32,11 @@ body{
 }
 
 .title{
-    font-size: 35px;
     margin-bottom: 30px;
-    color: #fff;
+    font-size: 70px;
+    background: -webkit-linear-gradient(#2b2b2bb2, #7c7c7ccb , #faf9f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .box-input{
