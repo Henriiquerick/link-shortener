@@ -10,7 +10,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: radial-gradient(circle at top, #d399fa , #bff999)
+    background: radial-gradient(circle at top, #190a24 , #5417c4)
 }
 
 .container{
@@ -59,20 +59,25 @@ body{
     margin-left: 10px;
     border-radius: 40px;
     font-size: 20px;
-    color: #253642;
+    color: black;
 }
 .btn1{
     background-color: #ffd32a;
 }
 .btn2{
-    background-color: #2e2affbb;
+    background-color: #e41304fa;
 }
 .btn1:hover{
     transition: .5s;
-    background-color: #b19421;
+    background-color: #8f7614;
 }
 .btn2:hover{
     transition: .5s;
-    background-color: #2321b1bb;
+    background-color: #b12b21bb;
+}
+
+.linkIcon{
+    font-size: 35px;
+    margin-left: 10px;
 }
 
