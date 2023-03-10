@@ -1,10 +1,10 @@
-const BTN2 = document.querySelector('#btn2')
-const inputValue = document.querySelector('#input-url')
+const BTN2 = document.querySelector('#btn2');
+const inputValue = document.querySelector('#input-url');
 function shortener(){
     let url = document.getElementById("input-url").value;
     if(!url){
         return alert('Needs URL for use URL Shortener');
-    }
+    };
 
     //headers
     let headers = {
@@ -15,7 +15,7 @@ function shortener(){
     let linkRequest = {
         destination: url,
         domain: { fullName: "rebrand.ly" }
-    }
+    };
 
     fetch("https://api.rebrandly.com/v1/links", {
         method: "POST",
