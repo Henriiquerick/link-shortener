@@ -33,5 +33,5 @@ function shortener(){
 BTN2.addEventListener('click', async() => {
     await navigator.clipboard.writeText(inputValue.value);
     await navigator.clipboard.writeText(inputValue.setSelectionRange(0,9999));
-    !alert('Copied link!')
+    !alert('Copied link!');
 })
